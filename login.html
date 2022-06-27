@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div style="background: linear-gradient(rgb(18, 93, 255),rgb(98, 255, 36));">
+        <div style="width: 100vh;height: 100vh; z-index: -1;" class="container">
+            <form action="./checklogin.php" method="POST" class="text-center " style="padding-top: 25%;">
+                <div class="mb-4">
+                    <input name="user" class="form-control w-70 mx-auto" type="text" placeholder="Enter your Name (10 characters)" maxlength="10" required="required">
+                </div>
+                <div class="mb-4">
+                    <input name="email" class="form-control w-70 mx-auto" type="email" placeholder="Enter your Email" required="required">
+                </div>
+                <div class="mb-4">
+                    <input name="password" class="form-control w-70 mx-auto" type="password" placeholder="Enter password" required="required">
+                </div>
+                <button type="submit" class="btn btn-dark w-25">Login</button>
+            </form>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
